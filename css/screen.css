@@ -360,6 +360,29 @@ a:focus {
   #COMPONENTS
 \*------------------------------------*/
 
+
+/*
+    Component: header
+    ---
+    Main header of the website
+*/
+
+.c-header__nav {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .c-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .c-header__nav {
+        display: block;
+    }
+}
+
+
 /* Comp: logo*/
 .c-logo {
   height: 32px;
